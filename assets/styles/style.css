@@ -53,3 +53,161 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*----------------------------------- POPULAR PRODUCTS SECTION --------------------------*/
+
+.our-popular-product{
+    max-width: 1440px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.popular-container{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 130px;
+}
+
+.popular-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.popular-main-title{
+    width: 100%;
+    color: #000000;
+    line-height: 70px;
+}
+
+.popular-small-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.popular-paragraph{
+    color: #555555;
+    line-height: 32px;
+}
+
+.popular-discover{
+    text-decoration-line: underline;
+    color: #222222;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.discover-text{
+    margin-right: 12px;
+}
+
+.popular-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.both-cards{
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgba(104, 90, 82, 0.19);
+}
+
+.cosm-products{
+    color: #222222;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.lorem-products{
+    color: #555555;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+.card-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 32px 32px 32px;
+}
+
+.buttons-card{
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.buy-now{
+    width: 41%;
+    line-height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #402F2C;
+    border: 1px solid #FFFFFF;
+}
+
+.add-to-cart{
+    width: 52%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #402F2C;
+    box-sizing: border-box;
+}
+
+.a-popular-buy{
+    color: #FFFFFF;
+}
+
+.a-popular-add{
+    color: #402F2C;
+}
+
+.price-text{
+    line-height: 32px;
+    color: #222222;
+}
+
