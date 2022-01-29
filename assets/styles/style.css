@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Red Hat Display', sans-serif;
-}
-
 ul{
     list-style: none;
 }
@@ -57,6 +53,12 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
 
 /*----------------------------- UPPER SECTION -----------------*/
 
@@ -300,6 +302,5 @@ a{
 .clients-styles-fedex:hover svg path{
     fill: #660099;
 }
-
 
 
