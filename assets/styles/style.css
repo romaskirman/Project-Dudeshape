@@ -60,6 +60,8 @@ a{
 
 /*----------------------------- UPPER SECTION -----------------*/
 
+       /*---------------------- HEADER ------------------*/
+
 .upper{
     max-width: 1440px;
     width: 100%;
@@ -125,3 +127,131 @@ a{
 .header-icons-mod:last-child{
     margin-right: 0;
 }
+
+      /*---------------------------- HERO ----------------------------*/
+
+.hero {
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.hero-text{
+    max-width: 1440px;
+    width: 50%;
+    background: #F9F6F5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.hero-maintitle{
+    line-height: 70px;
+    color: #000000;
+}
+
+.hero-paragraph{
+    line-height: 32px;
+    margin-top: 30px;
+    color: #555555;
+}
+
+.search-form{
+    width: 336px;
+    background: #FFFFFF;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+.form-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-field{
+    width: 90%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #999999;
+    padding-left: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-btn{
+    width: 10%;
+    background: #402F2C;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.shopnow-btn{
+    width: 22%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 56px;
+    background: #402F2C;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.a-active{
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-background{
+    position: relative;
+    width: 59.4%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.img-background{
+    max-width: 100%;
+}
+
+.strokes-rect{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 24.8%;
+    padding: 49px 0;
+    background: #F9F6F5;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.strokes{
+    height: 40px;
+}
+
+
+
+
