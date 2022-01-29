@@ -252,6 +252,54 @@ a{
     height: 40px;
 }
 
+/*------------------------------------ CLIENTS SECTION -----------------------*/
+
+.clients{
+    max-width: 1440px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 0;
+}
+
+.clients-block{
+    width: 81%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #EEEEEE;
+    border-left: none;
+    border-right: none;
+    padding: 41px 0;
+}
+
+.clients-styles-air:hover svg path{
+    fill: #FF585D;
+}
+
+.clients-styles-hub:hover svg path{
+    fill: #FA7820;
+}
+
+.clients-styles-goog:hover svg path{
+    fill: dodgerblue;
+}
+
+.clients-styles-micr:hover svg path{
+    fill: #0F9058;
+}
+
+.clients-styles-walm:hover svg path{
+   fill: #FFB81C;
+}
+
+.clients-styles-fedex:hover svg path{
+    fill: #660099;
+}
 
 
 
