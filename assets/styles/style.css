@@ -53,3 +53,206 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*------------------------------------ FOOTER SECTION ------------------------------------------*/
+
+.footer-section{
+    max-width: 1440px;
+    min-width: 1200px;
+    width: 100%;
+    background: #FAFAFA;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer-container{
+    max-width: 1240px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-block{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.end-block{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-text{
+    width: 50%;
+    line-height: 46px;
+    color: #222222;
+    margin: 108px 234px 64px 0;
+}
+
+.sub-form{
+    width: 386px;
+    margin-top: 103px;
+    margin-bottom: 59px;
+    background: #FFFFFF;
+    padding: 8px;
+}
+
+.sub-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email-field{
+    width: 72%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.sub-btn{
+    width: 28%;
+    background: #402F2C;
+    cursor: pointer;
+    border: none;
+    line-height: 40px;
+}
+
+.a-sub-btn{
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.end-block-container{
+    width: 100%;
+    padding: 0 105px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.dudeshape-footer{
+    margin: 59px 212px 52px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.special-h3{
+    font-weight: 700;
+    font-style: italic;
+    line-height: 50px;
+    text-decoration-line: underline;
+    color: #222222;
+}
+
+.special-p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+    margin-top: 38px;
+}
+
+.links-block{
+    margin: 84px 213px 80px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.special-h6{
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.links-footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #222222;
+    margin-top: 20px;
+}
+
+.links-footer-special{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #222222;
+
+    margin-top: 39px;
+}
+
+.contact-us-block{
+    margin: 84px 0 88px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.social-links{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.a-social{
+    margin-right: 27px;
+}
+
+.a-social:last-child{
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
