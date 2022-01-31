@@ -62,7 +62,7 @@ body{
 
 /*----------------------------- UPPER SECTION -----------------*/
 
-       /*---------------------- HEADER ------------------*/
+/*---------------------- HEADER ------------------*/
 
 .upper{
     max-width: 1440px;
@@ -146,7 +146,7 @@ body{
     margin-right: 0;
 }
 
-      /*---------------------------- HERO ----------------------------*/
+/*---------------------------- HERO ----------------------------*/
 
 .hero {
     max-width: 1440px;
@@ -299,7 +299,7 @@ body{
 
 /*------------------------------------ CLIENTS SECTION -----------------------*/
 
-.clients {
+.clients{
     max-width: 1440px;
     width: 100%;
     background-color: #FFFFFF;
@@ -478,6 +478,7 @@ body{
 
 .both-cards{
     max-width: 600px;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -517,6 +518,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .buy-now{
@@ -607,6 +609,7 @@ body{
 .stat-container{
     max-width: 1090px;
     width: 100%;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -658,6 +661,7 @@ body{
 .about{
     max-width: 1240px;
     width: 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -665,6 +669,7 @@ body{
 
 .perfect-beauty{
     width: 100%;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -672,6 +677,7 @@ body{
 
 .amazing-cosmetics{
     width: 100%;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -708,6 +714,7 @@ body{
     width: 24%;
     margin-top: 50px;
     margin-bottom: 45px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -764,6 +771,7 @@ body{
 
 .cosmetics-description{
     margin-top: 43px;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -791,6 +799,7 @@ body{
 .round-buttons{
     margin-top: 22px;
     margin-left: 17px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -819,3 +828,228 @@ body{
     border: 1px solid #6FB587;
     background: lightcyan;
 }
+
+/*------------------------------------ FOOTER SECTION ------------------------------------------*/
+
+.footer-section{
+    max-width: 1440px;
+    min-width: 1200px;
+    width: 100%;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer-container{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.end-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-text{
+    width: 50%;
+    line-height: 46px;
+    color: #222222;
+    margin: 108px 234px 64px 0;
+}
+
+.sub-form{
+    width: 386px;
+    margin-top: 103px;
+    margin-bottom: 59px;
+    background: #FFFFFF;
+    padding: 8px;
+}
+
+.sub-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email-field{
+    width: 72%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.sub-btn{
+    width: 28%;
+    background: #402F2C;
+    cursor: pointer;
+    border: 1px solid #402F2C;
+    line-height: 40px;
+    transition: 0.4s;
+}
+
+.sub-btn:hover{
+    background: #FFFFFF;
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
+.a-sub-btn{
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 12px 18.66px;
+    transition: 0.4s;
+}
+
+.a-sub-btn:hover{
+    color: #402F2C;
+    transition: 0.4s;
+}
+
+.end-block-container{
+    width: 100%;
+    padding: 0 105px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dudeshape-footer{
+    margin: 59px 212px 52px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.special-h3{
+    font-weight: 700;
+    font-style: italic;
+    line-height: 50px;
+    text-decoration-line: underline;
+    color: #222222;
+    transition: 0.7s;
+}
+
+.special-h3:hover{
+    color: rebeccapurple;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.special-p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+    margin-top: 38px;
+}
+
+.links-block{
+    margin: 84px 213px 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.special-h6{
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.links-footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.links-footer:hover{
+    color: blue;
+}
+
+.links-footer-special{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    margin-top: 39px;
+}
+
+.links-footer-special:hover{
+    color: blue;
+}
+
+.contact-us-block{
+    margin: 84px 0 88px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-links{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.a-social{
+    margin-right: 27px;
+}
+
+.a-social:last-child{
+    margin-right: 0;
+}
+
+.facebook-icon:hover g path{
+    fill: #3B5998;
+}
+
+.twit-icon:hover g path{
+    fill: #00ACEE;
+}
+
+.inst-icon:hover g path{
+    fill: #E1306C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
