@@ -94,6 +94,10 @@ body{
     font-style: italic;
 }
 
+.logo-text:hover{
+    color: rebeccapurple;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -102,9 +106,12 @@ body{
 }
 
 .menulist{
-    color: #222222;
     line-height: 20px;
     margin-right: 40px;
+}
+
+.menulist:hover{
+    transform: scale(1.04);
 }
 
 .menulist:last-child{
@@ -115,6 +122,10 @@ body{
     color: #222222;
 }
 
+.menulist a:hover{
+    color: rebeccapurple;
+}
+
 .header-icons{
     display: flex;
     flex-direction: row;
@@ -123,6 +134,12 @@ body{
 
 .header-icons-mod{
     margin-right: 24px;
+    transition: 0.4s;
+}
+
+.header-icons-mod:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 .header-icons-mod:last-child{
@@ -195,9 +212,16 @@ body{
 .search-btn{
     width: 10%;
     background: #402F2C;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     cursor: pointer;
+    border: none;
+    transition: 0.7s;
+}
+
+.search-btn:hover{
+    background: rosybrown;
+    transition: 0.7s;
 }
 
 .shopnow-btn{
@@ -211,13 +235,26 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: none;
+    border: 1px solid #402F2C;
+    transition: 0.4s;
 }
+
+.shopnow-btn:hover{
+    background: #FFFFFF;
+    transition: 0.4s;
+}
+
 .a-active{
     width: 100%;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
+    transition: 0.4s;
+}
+
+.a-active:hover{
+    color: #402F2C;
+    transition: 0.4s;
 }
 
 .hero-background{
@@ -251,6 +288,13 @@ body{
 
 .strokes{
     height: 40px;
+    transition: 0.4s;
+}
+
+.strokes:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 /*------------------------------------ CLIENTS SECTION -----------------------*/
@@ -278,28 +322,58 @@ body{
     padding: 41px 0;
 }
 
+.clients-styles-air svg path{
+    transition: 0.7s;
+}
+
 .clients-styles-air:hover svg path{
     fill: #FF585D;
+    transition: 0.7s;
+}
+
+.clients-styles-hub svg path{
+    transition: 0.7s;
 }
 
 .clients-styles-hub:hover svg path{
     fill: #FA7820;
+    transition: 0.7s;
+}
+
+.clients-styles-goog svg path{
+    transition: 0.7s;
 }
 
 .clients-styles-goog:hover svg path{
     fill: dodgerblue;
+    transition: 0.7s;
+}
+
+.clients-styles-micr svg path{
+    transition: 0.7s;
 }
 
 .clients-styles-micr:hover svg path{
     fill: #0F9058;
+    transition: 0.7s;
+}
+
+.clients-styles-walm svg path{
+    transition: 0.7s;
 }
 
 .clients-styles-walm:hover svg path{
-   fill: #FFB81C;
+    fill: #FFB81C;
+    transition: 0.7s;
+}
+
+.clients-styles-fedex svg path{
+    transition: 0.7s;
 }
 
 .clients-styles-fedex:hover svg path{
     fill: #660099;
+    transition: 0.7s;
 }
 
 
