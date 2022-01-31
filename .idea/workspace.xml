@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758832a0-3d56-430a-8a1c-ba7a7de723fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/Framestrelka.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Group 5117stars-rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Group 5117stars-rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rectangle 8perfect-beauty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Stroke 1round-button-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Stroke 1round-button-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Stroke 1round-button-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Stroke 1round-button-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jar-15 1jarr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction (1) 1amaz-osmetics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pump-bottle-02 1pump-bottle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/“text-begin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/“text-end.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +123,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="header-hero" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
