@@ -62,12 +62,18 @@ body{
 
 .our-popular-product {
     max-width: 1440px;
+    min-width: 1300px;
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding: 0 100px;
+}
+
+.for-big-img{
+    max-width: 100%;
 }
 
 .popular-container{
@@ -119,6 +125,7 @@ body{
 }
 
 .discover-text{
+    width: 250px;
     margin-right: 12px;
 }
 
@@ -126,12 +133,28 @@ body{
     color: #222222;
 }
 
+.acolor:hover{
+    color: darkslategray;
+}
+
+.acolor svg{
+    transition: 0.5s;
+}
+
+.acolor svg:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.acolor svg:hover path{
+    fill: darkslategray;
+}
+
 .popular-cards{
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /*justify-content: space-between;*/
     margin-top: 60px;
 }
 
@@ -190,31 +213,58 @@ body{
     align-items: center;
     justify-content: center;
     background: #402F2C;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #402F2C;
+    transition: 0.7s;
+}
+
+.buy-now:hover{
+    background: #FFFFFF;
+    border: 1px solid #402F2C;
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 
 .add-to-cart{
     width: 52%;
+    line-height: 56px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 54px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #FFFFFF;
+    background: #402F2C;
     border: 1px solid #402F2C;
     box-sizing: border-box;
+    transition: 0.7s;
+}
+
+.add-to-cart:hover{
+    background: #FFFFFF;
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 
 .a-popular-buy{
     width: 100%;
     color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.a-popular-buy:hover{
+    color: #402F2C;
+    transition: 0.7s;
 }
 
 .a-popular-add{
     width: 100%;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.a-popular-add:hover{
     color: #402F2C;
+    transition: 0.7s;
 }
 
 .price-text{
@@ -228,7 +278,7 @@ body{
 
 .stats{
     max-width: 1440px;
-    min-width: 1200px;
+    min-width: 1300px;
     width: 100%;
     background: #FDF8F5;
     display: flex;
@@ -253,6 +303,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.7s;
+}
+
+.stat-card:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
 }
 
 .stat-bigtitle{
@@ -274,7 +331,7 @@ body{
 
 .about-section{
     max-width: 1440px;
-    min-width: 1200px;
+    min-width: 1300px;
     width: 100%;
     background: #FFFFFF;
     display: flex;
@@ -344,8 +401,14 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: none;
+    border: 1px solid #402F2C;
     background: #402F2C;
+    transition: 0.7s;
+}
+
+.shop-now-btn:hover{
+    background: #FFFFFF;
+    transition: 0.7s;
 }
 
 .a-pressed{
@@ -353,6 +416,12 @@ body{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
+    transition: 0.7s;
+}
+
+.a-pressed:hover{
+    color: #402F2C;
+    transition: 0.7s;
 }
 
 .cosmetics-text{
@@ -372,6 +441,14 @@ body{
 .stars-block{
     margin-left: 17px;
     margin-top: 12px;
+}
+
+.stars-block:hover path{
+    fill: #FF6800;
+}
+
+.stars-block:hover{
+    cursor: pointer;
 }
 
 .cosmetics-description{
@@ -426,10 +503,12 @@ body{
 
 .left-round-btn:hover{
     border: 1px solid #6FB587;
+    background: lightcyan;
 }
 
 .right-round-btn:hover{
     border: 1px solid #6FB587;
+    background: lightcyan;
 }
 
 
