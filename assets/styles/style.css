@@ -66,6 +66,7 @@ body{
 
 .upper{
     max-width: 1440px;
+    min-width: 1300px;
     width: 100%;
     background-color: #F9F6F5;
 
@@ -301,6 +302,7 @@ body{
 
 .clients{
     max-width: 1440px;
+    min-width: 1300px;    /*new*/
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
@@ -833,7 +835,7 @@ body{
 
 .footer-section{
     max-width: 1440px;
-    min-width: 1200px;
+    min-width: 1300px;
     width: 100%;
     background: #FAFAFA;
     display: flex;
@@ -1035,7 +1037,17 @@ body{
     fill: #E1306C;
 }
 
+/*----------------------------- CENTRALYZING PAGE ------------------*/
 
+body {
+    min-height: 100vh;
+    min-width: 1300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 

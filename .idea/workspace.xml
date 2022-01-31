@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758832a0-3d56-430a-8a1c-ba7a7de723fe" name="Changes" comment="merged main cards into dev">
-      <change afterPath="$PROJECT_DIR$/assets/images/Rectangle 11sub-btn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/facebook 1fcebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/instagram 1inst (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/twitter 1twit.svg" afterDir="false" />
+    <list default="true" id="758832a0-3d56-430a-8a1c-ba7a7de723fe" name="Changes" comment="merged footer into dev">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -104,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643662638007</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="merged footer into dev">
+      <created>1643664013826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643664013826</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +144,7 @@
     <MESSAGE value="added stat section" />
     <MESSAGE value="added about section" />
     <MESSAGE value="merged main cards into dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged main cards into dev" />
+    <MESSAGE value="merged footer into dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged footer into dev" />
   </component>
 </project>
