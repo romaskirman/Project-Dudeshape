@@ -135,8 +135,15 @@ body{
     width: 28%;
     background: #402F2C;
     cursor: pointer;
-    border: none;
+    border: 1px solid #402F2C;
     line-height: 40px;
+    transition: 0.4s;
+}
+
+.sub-btn:hover{
+    background: #FFFFFF;
+    transform: scale(1.04);
+    transition: 0.4s;
 }
 
 .a-sub-btn{
@@ -144,6 +151,13 @@ body{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 14px;
+    padding: 12px 18.66px;
+    transition: 0.4s;
+}
+
+.a-sub-btn:hover{
+    color: #402F2C;
+    transition: 0.4s;
 }
 
 .end-block-container{
@@ -168,6 +182,13 @@ body{
     line-height: 50px;
     text-decoration-line: underline;
     color: #222222;
+    transition: 0.7s;
+}
+
+.special-h3:hover{
+    color: rebeccapurple;
+    transition: 0.7s;
+    cursor: pointer;
 }
 
 .special-p{
@@ -201,6 +222,10 @@ body{
     margin-top: 20px;
 }
 
+.links-footer:hover{
+    color: blue;
+}
+
 .links-footer-special{
     font-style: normal;
     font-weight: normal;
@@ -210,6 +235,10 @@ body{
     color: #222222;
 
     margin-top: 39px;
+}
+
+.links-footer-special:hover{
+    color: blue;
 }
 
 .contact-us-block{
@@ -237,6 +266,17 @@ body{
     margin-right: 0;
 }
 
+.facebook-icon:hover g path{
+    fill: #3B5998;
+}
+
+.twit-icon:hover g path{
+    fill: #00ACEE;
+}
+
+.inst-icon:hover g path{
+    fill: #E1306C;
+}
 
 
 
