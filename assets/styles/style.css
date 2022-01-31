@@ -160,7 +160,6 @@ body{
 
 .both-cards{
     max-width: 600px;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -200,7 +199,6 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .buy-now{
@@ -291,7 +289,6 @@ body{
 .stat-container{
     max-width: 1090px;
     width: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -343,7 +340,6 @@ body{
 .about{
     max-width: 1240px;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -351,7 +347,6 @@ body{
 
 .perfect-beauty{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -359,7 +354,6 @@ body{
 
 .amazing-cosmetics{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -396,7 +390,6 @@ body{
     width: 24%;
     margin-top: 50px;
     margin-bottom: 45px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -453,7 +446,6 @@ body{
 
 .cosmetics-description{
     margin-top: 43px;
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -481,7 +473,6 @@ body{
 .round-buttons{
     margin-top: 22px;
     margin-left: 17px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
