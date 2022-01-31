@@ -65,7 +65,6 @@ body{
     min-width: 1200px;
     width: 100%;
     background: #FAFAFA;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +74,6 @@ body{
 .footer-container{
     max-width: 1240px;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +81,6 @@ body{
 
 .sub-block{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -92,7 +89,6 @@ body{
 
 .end-block{
     width: 100%;
-
     display: flex;
     flex-direction: column;
 }
@@ -114,7 +110,6 @@ body{
 
 .sub-container{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -163,14 +158,12 @@ body{
 .end-block-container{
     width: 100%;
     padding: 0 105px;
-
     display: flex;
     flex-direction: row;
 }
 
 .dudeshape-footer{
     margin: 59px 212px 52px 0;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -200,7 +193,6 @@ body{
 
 .links-block{
     margin: 84px 213px 80px 0;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -217,7 +209,6 @@ body{
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-
     color: #222222;
     margin-top: 20px;
 }
@@ -231,9 +222,7 @@ body{
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-
     color: #222222;
-
     margin-top: 39px;
 }
 
@@ -243,16 +232,13 @@ body{
 
 .contact-us-block{
     margin: 84px 0 88px 0;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
 
 .social-links{
     margin-top: 20px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
