@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758832a0-3d56-430a-8a1c-ba7a7de723fe" name="Changes" comment="added centralyzing">
+    <list default="true" id="758832a0-3d56-430a-8a1c-ba7a7de723fe" name="Changes" comment="added all project here">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f97fc8a-386b-40d9-99a0-5dbc7762fa44" name="Changes" comment="" />
+      <changelist id="758832a0-3d56-430a-8a1c-ba7a7de723fe" name="Changes" comment="added all project here" />
       <created>1643459004904</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -55,6 +56,7 @@
       <workItem from="1643489137086" duration="14208000" />
       <workItem from="1643542441075" duration="8546000" />
       <workItem from="1643552642074" duration="5879000" />
+      <workItem from="1643721903168" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="added hero section">
       <created>1643478865102</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643664013826</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added all project here">
+      <created>1643671394453</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643671394453</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +152,7 @@
     <MESSAGE value="added about section" />
     <MESSAGE value="merged main cards into dev" />
     <MESSAGE value="merged footer into dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged footer into dev" />
+    <MESSAGE value="added all project here" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all project here" />
   </component>
 </project>
